@@ -1,20 +1,13 @@
 import React from 'react'
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import MapAndFunctionExp from './Components/MapAndFunctionExp';
-import { JSXRules } from './Components/JSXRules';
-import ProductInfo from './Components/ProductInfo';
-import UserList from './Components/UserList';
+import Event from './Components/Event'
 
-export const App = () => {
+
+const App = () => {
   return (
     <>
-    <UserList/>
-  
+     <Event/>
     </>
-   
-   
   )
 }
 
-export default App;
+export default App
