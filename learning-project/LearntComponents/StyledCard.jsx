@@ -1,9 +1,10 @@
 import React from 'react'
+const style = {backgroundColor:'lightblue',padding:'20rem',borderRadius:'10px',color:'darkblue'}
 const StyledCard = () => {
   return (
     <>
-    <div style={{backgroundColor:'lightblue',padding:'20rem',borderRadius:'10px',color:'darkblue'}}>  
-    <h1>hell all</h1>
+    <div style={style}>  
+    <h1>hello all</h1>
     <p>this is the description</p>
     </div>
     </>

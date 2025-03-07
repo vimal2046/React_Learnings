@@ -1,0 +1,23 @@
+.parent-container{
+    font-family:cursive;
+    border: 1px solid #ddd;
+    text-align:center;
+    background-color:#caffbf
+}
+
+.button-container{
+    font-family:cursive;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+.display-card{
+    font-family:cursive;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: 10px auto;
+    background-color:lightblue
+}

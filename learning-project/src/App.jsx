@@ -1,13 +1,11 @@
-import React from 'react'
-import Event from './Components/Event'
+import UserCard from "./Components/UserCard";
+import Parent from "./Components/Parent";
 
-
-const App = () => {
-  return (
+const App = () =>{
+  return(
     <>
-     <Event/>
+    <Parent/>
     </>
   )
 }
-
-export default App
+export default App;

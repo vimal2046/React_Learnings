@@ -1,10 +1,10 @@
 import React from 'react'
 
-const moveHandler = () => {alert("modws detected")
-  console.log("mouse in console")
+const moveHandler = () => {
+  <h1>HELLO EVERY ONE</h1>
 }
 const Move = () =>{
-  return <p onMouseMove={moveHandler}>Lorem ipsum dolor sit amet consectetur 
+  return <p onClick={moveHandler}>Lorem ipsum dolor sit amet consectetur 
     adipisicing elit. Expedita, quasi!</p>
 }
 const Event = () => {
