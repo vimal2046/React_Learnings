@@ -1,10 +1,12 @@
-import UserCard from "./Components/UserCard";
-import Parent from "./Components/Parent";
+import AsyncAndAwait from "../LearntComponents/promiseAndAsync/AsyncAndAwait";
+import HooksWithObjects from "../LearntComponents/HooksWithObjects";
+import PromiseAndAsync from "../LearntComponents/promiseAndAsync/PromiseAndAsync";
+import Await from "../LearntComponents/promiseAndAsync/PromiseAndAsync";
+const App = ()=>{
 
-const App = () =>{
   return(
     <>
-    <Parent/>
+     <AsyncAndAwait/>
     </>
   )
 }

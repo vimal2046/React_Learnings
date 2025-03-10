@@ -1,4 +1,4 @@
-import { PRODUCTS } from '../constants/products';
+import { PRODUCTS } from '../../src/constants/products';
 import React, { useState } from "react";
 import Product from "./Product";
 import "../index.css"
