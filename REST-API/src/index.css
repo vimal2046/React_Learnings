@@ -1,0 +1,55 @@
+/* App container */
+*{
+  font-family: cursive;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Table styling */
+.table-row-column {
+  width: 80%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table header */
+.table-row-column thead {
+  background-color: #06af6c;
+  color: white;
+}
+
+.table-row-column th {
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Table rows */
+.table-row-column td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* Alternate row colors */
+.table-row-column tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect */
+.table-row-column tbody tr:hover {
+  background-color: #f1f1f1;
+  transition: 0.3s;
+}
+
+
