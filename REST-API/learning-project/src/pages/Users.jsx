@@ -9,7 +9,7 @@ const Users = () => {
     <div>
         {users.map((user) =>{
             return(
-                <Link to={user.id.toString()} key = {user.id} className='user'>
+                <Link to={user.id.toString()} key={user.id} >
                 <div className='user'>
                 <h4>{user.name}</h4>
                 <p>{user.email}</p>
@@ -22,3 +22,4 @@ const Users = () => {
 
 export default Users;
 
+ 
